@@ -78,7 +78,6 @@ struct GaugeMeter : View {
           )
         )
         .rotationEffect(Angle(degrees: 90))
-        .shadow(color: .black.opacity(0.2), radius: 10, x: 0, y: 0)
         
         if let indicatorAngle {
           GaugeIndicator(angle: indicatorAngle, size: geometry.size)
